@@ -54,6 +54,7 @@ body {
     padding: 2rem;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     gap: 1rem;
 }
 
@@ -71,7 +72,7 @@ body {
 
 .chat_message {
     padding: 1rem;
-    max-width: 75%;
+    max-width: 90%;
     font-size: 1.5rem;
     border-radius: 1rem;
     word-wrap: break-word;
@@ -136,4 +137,25 @@ body {
     border: none;
     outline: none;
     transition: all 300ms ease;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: #2bff00;
+    color: white;
+    padding: 1.2rem;
+    text-align: left;
+}
+
+tbody td {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
 }

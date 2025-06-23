@@ -32,6 +32,7 @@ const generateDiet = async (userData) => {
   Asegúrate de que el plan sea saludable, equilibrado y adaptado a las preferencias y restricciones del usuario.
   
   Responde solo con el plan de nutrición, no puedes responder a otras preguntas que no sean sobre el plan de nutrición.
+  Si el usuario no te proporciona alguno de los datos, interpretalo tu mismo. (Por ejemplo si el usuario no te dice el peso pero si te dice la altura, puedes asumir un peso promedio para su altura).
   `};
 
   const propmtUser = {
